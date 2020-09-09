@@ -1,0 +1,8 @@
+{
+    "name": "foxprogs/git_console",
+    "description": "Homework",
+    "type": "project",
+    "require": {
+        "symfony/console": "^5.1"
+    }
+}
