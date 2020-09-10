@@ -6,5 +6,6 @@ $app = new \Symfony\Component\Console\Application('Git console app');
 
 $app->add(new App\SayHelloCommand());
 $app->add(new App\RepeatCommand());
+$app->add(new App\QuestCommand());
 
 $app->run();
