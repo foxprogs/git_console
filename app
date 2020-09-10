@@ -4,4 +4,6 @@ require_once __DIR__.DIRECTORY_SEPARATOR.'vendor'.DIRECTORY_SEPARATOR.'autoload.
 
 $app = new \Symfony\Component\Console\Application('Git console app');
 
+$app->add(new App\QuestCommand());
+
 $app->run();
